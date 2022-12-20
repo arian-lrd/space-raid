@@ -1,13 +1,14 @@
-# Space Raid
-A game inspired by "River Raid" from "Atari 2600" <br />
-I used to play this game as a kid. So I was very interested in making a similar game using my programming knowledge.
+# Alien Invasion
+This repository will contain the code I wrote for my simple python game which I like to call "Space Raid". <br />
+A game inspired by "River Raid & "Space Raid" from "Atari 2600" which I used to play as a kid. <br />
+Since I used to play this game as a kid. So I was very interested in making a similar game using my programming knowledge. <br />
+Youtube link to the demo: https://youtu.be/vjRvryA7hCU
 
 ## Background & Notes
 space_raid was my first proper programing project, with Python, the first programming language I started experimenting with. <br />
 
 After 1 month of consuming pyhton knwoledge I decided to do something more ambitiouss than some easy practices. <br />
 So I took one of the practices that interested me the most, "alien-invasion" skeleton practice from the "Python crash course" book, worked on it for 100 hours and turned it into the final version that I'm posting here. <br />
-This repository will contain most of the code I wrote for my simple python game which I like to call "Space Raid".
 
 
 In the duration of coding this project I spent many hours reading documentations, asking questions online namely on Stack Overflow, re-reading
@@ -15,8 +16,8 @@ what I had learnt earlier, and trying to fix the problems that arose after each 
 This was the most valuable aspect of the project, as it taught me how to find my answers when I'm creating something from scratch and out of the academic setting where there's a guide for every step of the projects.
 
 
-Final remarks:
-Near the end of making this game I realized that every time I'd come close to finishing up, a new idea would pop up in my head which took a few hours to fully implement into the game. Thus after a while I decided not to follow up on my ideas anymore because it might've forced me to spend a hundred hours more on the project. <br />
+***Final remarks:***
+Towards the end of making this game I realized that every time I'd come close to finishing up, a new idea would pop up in my head which took a few hours to fully implement into the game. Thus after a while I decided not to follow up on my ideas anymore because it might've forced me to spend a hundred hours more on the project. <br />
 *Yet I'm quite happy with the end result.*
 
 
@@ -46,57 +47,23 @@ I added all of the following features to the game:
 
 
 ## Files
-"alien_invasion.py" - Contains the game's main function & loop. <br />
-"alien_bullet.py" - Manages bullets fired from aliens. <br />
-"all_time_high.json" - Stores highest recorded score. <br />
-"button.py" - Displays play button on the game's main screen. <br />
-"explosion.py" - Display ship explosion images to the screen. <br />
-"game_functions.py" - Contains the bulk of the code which are the games's functions. <br />
-"game_stats.py" - Initialize & track game's statics (e.g., level, score, ships left). <br />
+```alien_invasion.py``` - *Contains the game's main function & loop.* <br />
+```alien_bullet.py``` - *Manages bullets fired from aliens.* <br />
+```all_time_high.json``` - *Stores highest recorded score.* <br />
+```button.py``` - *Displays play button on the game's main screen.* <br />
+```explosion.py``` - *Display ship explosion images to the screen.* <br />
+```game_functions.py``` - *Contains the bulk of the code which are the games's functions.* <br />
+```game_stats.py``` - *Initialize & track game's statics (e.g., level, score, ships left).* <br />
 "Music" - *Has to be deleted*  <br /> 
-"scoreboard.py" - Keep track of & display score statics (e.g., score, high score, level, player's remaininng ships). <br /> 
-"settings.py" - Store the game's settings. Initialize at the beginning & make changes during the game. <br /> 
-"ship" - Store and visualize the ship. <br />
-"sound_and_music.py" - Play the game's sounds and music. <br />
+```scoreboard.py``` - *Keep track of & display score statics (e.g., score, high score, level, player's remaininng ships).* <br /> 
+```settings.py``` - *Store the game's settings. Initialize at the beginning & make changes during the game.* <br /> 
+```ship``` - *Store and visualize the ship.* <br />
+```sound_and_music.py``` - *Play the game's sounds and music.* <br />
 
 
 
-In making this game I also used the "Pygame" library. <br />
-I havn't added the music, font, and image files to this repository. <br />
+***In making this game I also used the ```"Pygame"``` library.*** <br />
+***I havn't added the music, font, and image files to this repository.*** <br />
 
 
-
-
-
-# space-raid
-This repository will contain most of the code I wrote for my simple python game which I like to call "Space Raid".
-
-I used to play a game called "River Raid" on atari 2600 as a kid. So I was very interested in making a similar game using my programming knowledge.
-
-Making this game took me around 100 hours, and it is a development of a simple 2-hour long practice in the book "Python Crash Course" which I completed when I was
-reading the book a year ago. During this time I spent many hours reading documentations, asking questions online and on Stack Overflow, re-reading
-what I had learnt earlier, and trying to fix the problems that arose after each modification to the game.
-
-
-The file "alien invasion" contains the game's main loop and most important parts of the code.
-
-The file called "game functions" contains the bulk of the code I wrote for this game.
-
-To make this game I also used pygame.
-
-I havn't added the music, font, and image files to this repository.
-
-Near the end of making this game I realized each time I'd come close to finishing up the project, a new idea would pop up in my head which took a few hours to fully
-implement into the game. Thus after a certain moment I decided not to follow up on my ideas anymore because it might've forced me to spend a few hundred hours more
-on the project. Yet I'm quite happy with the end result.
-
-
-
--This is a link to a two minute long display of the game on youtube:
-
-https://youtu.be/jc4iHXBIiiI
-
--This is my email:
-
-arianamiri1994@gmail.com
 

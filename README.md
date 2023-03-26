@@ -4,7 +4,9 @@ A game inspired by "River Raid & "Space Raid" from "Atari 2600" which I used to 
 Since I used to play this game as a kid. So I was very interested in making a similar game using my programming knowledge. <br />
 Youtube link to the demo: https://youtu.be/vjRvryA7hCU
 
+
 ## Background & Notes
+#To run the game change the path on lines 427 and 434 of game_functions.py to the path on your own sytem.
 space_raid was my first proper programing project, with Python, the first programming language I started experimenting with. <br />
 
 After 1 month of consuming pyhton knwoledge I decided to do something more ambitiouss than some easy practices. <br />

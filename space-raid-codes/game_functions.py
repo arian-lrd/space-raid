@@ -424,16 +424,14 @@ def check_high_score(stats, sb):
 
 def store_all_time_high(stats):
     """Store the all time high score."""
-    filepath = '/Users/ARIAN/Desktop/python_work/alien_invasion/' \
-               'all_time_high.json'
+    filepath = '/PATH_ON_YOUR_SYSTEM'
     with open(filepath, 'w') as f_obj:
         json.dump(stats.high_score, f_obj)
 
 
 def load_all_time_high(stats):
     """Load all time high score """
-    filepath = '/Users/ARIAN/Desktop/python_work/alien_invasion/' \
-               'all_time_high.json'
+    filepath = '/PATH_ON_YOUR_SYSTEM'
     with open(filepath, 'r') as f_obj:
         all_time_high = json.load(f_obj)
         stats.high_score = all_time_high

@@ -2,7 +2,7 @@
 This repository will contain the code I wrote for my simple python game which I like to call "Space Raid". <br />
 A game inspired by "River Raid & "Space Raid" from "Atari 2600" which I used to play as a kid. <br />
 Since I used to play this game as a kid. So I was very interested in making a similar game using my programming knowledge. <br />
-Youtube link to the demo: https://youtu.be/vjRvryA7hCU
+Youtube link to the demo: https://youtu.be/mS11LWQ8QYg
 
 ## Important
 To run the game on your system on lines 427 and 434 of *game_functions.py* file change the path to the path on your own sytem.
